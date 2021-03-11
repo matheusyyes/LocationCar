@@ -31,3 +31,37 @@ G:\backup\Desktop\PejetoC#\LocationCar\LocationCar\obj\Debug\LocationCar.csproj.
 G:\backup\Desktop\PejetoC#\LocationCar\LocationCar\obj\Debug\LocationCar.exe
 G:\backup\Desktop\PejetoC#\LocationCar\LocationCar\obj\Debug\LocationCar.pdb
 G:\backup\Desktop\PejetoC#\LocationCar\LocationCar\obj\Debug\LocationCar.Cadastro.resources
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\LocationCar.exe.config
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\LocationCar.exe
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\LocationCar.pdb
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\Npgsql.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Buffers.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Memory.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Numerics.Vectors.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Text.Encodings.Web.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Text.Json.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Threading.Channels.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.ValueTuple.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\Npgsql.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Buffers.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Memory.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Numerics.Vectors.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Text.Encodings.Web.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Text.Json.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Threading.Channels.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\System.ValueTuple.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.csprojAssemblyReference.cache
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.Properties.Resources.resources
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.Cadastro.resources
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.csproj.GenerateResource.cache
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.csproj.CoreCompileInputs.cache
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.csproj.CopyComplete
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.exe
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.pdb
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.View.frmMenu.resources

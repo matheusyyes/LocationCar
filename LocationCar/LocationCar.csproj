@@ -83,11 +83,18 @@
     <Compile Include="Conexao.cs" />
     <Compile Include="DAO\ModelCarDAO.cs" />
     <Compile Include="Model\ModelCar.cs" />
-    <Compile Include="View\Form1.cs">
+    <Compile Include="View\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="View\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Vehicle\VehicleRegistratio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Vehicle\.Designer.cs">
+      <DependentUpon>VehicleRegistratio.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,8 +107,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="View\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Vehicle\VehicleRegistratio.resx">
+      <DependentUpon>VehicleRegistratio.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

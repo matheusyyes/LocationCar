@@ -39,7 +39,7 @@ namespace LocationCar {
             // 
             // btnConexao
             // 
-            this.btnConexao.Location = new System.Drawing.Point(814, 576);
+            this.btnConexao.Location = new System.Drawing.Point(543, 391);
             this.btnConexao.Name = "btnConexao";
             this.btnConexao.Size = new System.Drawing.Size(75, 23);
             this.btnConexao.TabIndex = 0;
@@ -49,7 +49,7 @@ namespace LocationCar {
             // 
             // txtFabricante
             // 
-            this.txtFabricante.Location = new System.Drawing.Point(36, 89);
+            this.txtFabricante.Location = new System.Drawing.Point(44, 145);
             this.txtFabricante.Name = "txtFabricante";
             this.txtFabricante.Size = new System.Drawing.Size(409, 20);
             this.txtFabricante.TabIndex = 1;
@@ -57,7 +57,7 @@ namespace LocationCar {
             // lblMarca
             // 
             this.lblMarca.AutoSize = true;
-            this.lblMarca.Location = new System.Drawing.Point(33, 73);
+            this.lblMarca.Location = new System.Drawing.Point(41, 129);
             this.lblMarca.Name = "lblMarca";
             this.lblMarca.Size = new System.Drawing.Size(60, 13);
             this.lblMarca.TabIndex = 2;
@@ -66,7 +66,7 @@ namespace LocationCar {
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 146);
+            this.label1.Location = new System.Drawing.Point(41, 202);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 4;
@@ -74,7 +74,7 @@ namespace LocationCar {
             // 
             // txtModelo
             // 
-            this.txtModelo.Location = new System.Drawing.Point(36, 162);
+            this.txtModelo.Location = new System.Drawing.Point(44, 218);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(409, 20);
             this.txtModelo.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace LocationCar {
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 208);
+            this.label2.Location = new System.Drawing.Point(41, 264);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 13);
             this.label2.TabIndex = 6;
@@ -95,14 +95,14 @@ namespace LocationCar {
             "Sedan",
             "Hatch",
             "Suv"});
-            this.cmbTipo.Location = new System.Drawing.Point(36, 225);
+            this.cmbTipo.Location = new System.Drawing.Point(44, 281);
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(187, 21);
             this.cmbTipo.TabIndex = 7;
             // 
             // mskPlaca
             // 
-            this.mskPlaca.Location = new System.Drawing.Point(36, 335);
+            this.mskPlaca.Location = new System.Drawing.Point(44, 391);
             this.mskPlaca.Mask = "AAA-0000";
             this.mskPlaca.Name = "mskPlaca";
             this.mskPlaca.Size = new System.Drawing.Size(100, 20);
@@ -111,7 +111,7 @@ namespace LocationCar {
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 319);
+            this.label3.Location = new System.Drawing.Point(41, 375);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 9;
@@ -124,7 +124,7 @@ namespace LocationCar {
             "Preto",
             "Branco",
             "Vermelho"});
-            this.cmbCor.Location = new System.Drawing.Point(36, 284);
+            this.cmbCor.Location = new System.Drawing.Point(44, 340);
             this.cmbCor.Name = "cmbCor";
             this.cmbCor.Size = new System.Drawing.Size(187, 21);
             this.cmbCor.TabIndex = 11;
@@ -132,7 +132,7 @@ namespace LocationCar {
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(33, 267);
+            this.label4.Location = new System.Drawing.Point(41, 323);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(23, 13);
             this.label4.TabIndex = 10;
@@ -142,7 +142,7 @@ namespace LocationCar {
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(979, 628);
+            this.ClientSize = new System.Drawing.Size(791, 503);
             this.Controls.Add(this.cmbCor);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
