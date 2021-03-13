@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexao.cs" />
+    <Compile Include="Controller\VehicleController.cs" />
     <Compile Include="DAO\ModelCarDAO.cs" />
     <Compile Include="Model\ModelCar.cs" />
     <Compile Include="View\Menu.cs">

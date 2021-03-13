@@ -30,7 +30,13 @@ namespace DAO {
             }
             catch (NpgsqlException ex) {
 
-                MessageBox.Show(ex.Message);
+                if(ex.Message.Contains("duplicate key")) {
+                    MessageBox.Show("Placa já registrada", "Ateção!!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else {
+                    MessageBox.Show(ex.Message, "Ateção!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }                
+
             }
             finally {
                 con.closeConnect();

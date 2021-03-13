@@ -5,9 +5,9 @@ namespace LocationCar {
     class Conexao {
 
         private static string Host = "ec2-54-162-119-125.compute-1.amazonaws.com";
-        private static string User = "";
+        private static string User = "hqbfvybqprqqoz";
         private static string DBname = "d43pmvbviknle4";
-        private static string Password = "";
+        private static string Password = "2650d0a4ef8bdd080ac2e766749b25482e57f720555d06ecb2b64d5489a6b159";
         private static string Port = "5432";
 
         string connString =

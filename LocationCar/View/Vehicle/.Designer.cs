@@ -39,7 +39,7 @@ namespace LocationCar {
             // 
             // btnConexao
             // 
-            this.btnConexao.Location = new System.Drawing.Point(543, 391);
+            this.btnConexao.Location = new System.Drawing.Point(544, 391);
             this.btnConexao.Name = "btnConexao";
             this.btnConexao.Size = new System.Drawing.Size(75, 23);
             this.btnConexao.TabIndex = 0;

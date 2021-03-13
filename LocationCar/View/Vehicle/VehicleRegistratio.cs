@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using Model;
-using DAO;
+using Controller;
 namespace LocationCar {
     public partial class Cadastro : Form {
         public Cadastro() {
@@ -10,12 +9,9 @@ namespace LocationCar {
 
         private void btnConexao_Click(object sender, EventArgs e) {
 
-            ModelCarDAO daoCar = new ModelCarDAO();
+            VehicleController vController = new VehicleController();
 
-            ModelCar car = new ModelCar(txtFabricante, txtModelo,cmbTipo,mskPlaca,cmbCor);
-
-            daoCar.Insert(car);
-
+            vController.insert(txtFabricante, txtModelo, cmbTipo, mskPlaca, cmbCor);
             
         }
 
