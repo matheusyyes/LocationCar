@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 using Controller;
+using LocationCar.View;
+
 namespace LocationCar {
     public partial class Cadastro : Form {
         public Cadastro() {
@@ -15,6 +17,17 @@ namespace LocationCar {
             
         }
 
-        
+        private void Cadastro_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (Application.OpenForms.Count == 0)
+            {
+                Application.Exit();
+            }
+            else
+            {
+                frmMenu menu = new frmMenu();
+                menu.Show();
+            }
+        }
     }
 }
