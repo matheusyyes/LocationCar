@@ -35,6 +35,7 @@ namespace LocationCar.View
             this.cadastroCarroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaDeVeiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarVeiculoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +54,8 @@ namespace LocationCar.View
             this.carroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroCarroToolStripMenuItem,
             this.listaDeVeiculosToolStripMenuItem,
-            this.editarVeiculoToolStripMenuItem});
+            this.editarVeiculoToolStripMenuItem,
+            this.sairToolStripMenuItem});
             this.carroToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("carroToolStripMenuItem.Image")));
             this.carroToolStripMenuItem.Name = "carroToolStripMenuItem";
             this.carroToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
@@ -81,6 +83,14 @@ namespace LocationCar.View
             this.editarVeiculoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editarVeiculoToolStripMenuItem.Text = "Editar veiculo";
             // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sairToolStripMenuItem.Image")));
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -105,5 +115,6 @@ namespace LocationCar.View
         private System.Windows.Forms.ToolStripMenuItem cadastroCarroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listaDeVeiculosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editarVeiculoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
     }
 }

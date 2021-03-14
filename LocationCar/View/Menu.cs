@@ -24,5 +24,10 @@ namespace LocationCar.View
             frmCadastro.Show();
             this.Hide();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
