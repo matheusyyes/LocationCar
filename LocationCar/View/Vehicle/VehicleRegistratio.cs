@@ -3,31 +3,31 @@ using System.Windows.Forms;
 using Controller;
 using LocationCar.View;
 
-namespace LocationCar {
-    public partial class Cadastro : Form {
-        public Cadastro() {
+namespace LocationCar
+{
+    public partial class Cadastro : Form
+    {
+        public Cadastro()
+        {
             InitializeComponent();
         }
 
-        private void btnConexao_Click(object sender, EventArgs e) {
+        private void btnConexao_Click(object sender, EventArgs e)
+        {
 
             VehicleController vController = new VehicleController();
 
             vController.insert(txtFabricante, txtModelo, cmbTipo, mskPlaca, cmbCor);
-            
+
         }
 
         private void Cadastro_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (Application.OpenForms.Count == 0)
-            {
-                Application.Exit();
-            }
-            else
-            {
-                frmMenu menu = new frmMenu();
-                menu.Show();
-            }
+            
+            frmMenu menu = new frmMenu();
+            menu.Show();
+
+
         }
     }
 }

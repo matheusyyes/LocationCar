@@ -66,3 +66,6 @@ D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.
 D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.pdb
 D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.View.frmMenu.resources
 G:\backup\Desktop\PejetoC#\LocationCar\LocationCar\obj\Debug\LocationCar.View.frmMenu.resources
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\Newtonsoft.Json.dll
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\bin\Debug\Newtonsoft.Json.xml
+D:\CursoCshap\Projeto LocationCar\LocationCar\LocationCar\obj\Debug\LocationCar.View.Client.CustomerRegistration.resources

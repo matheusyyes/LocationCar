@@ -36,6 +36,9 @@
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Npgsql, Version=5.0.3.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
       <HintPath>..\packages\Npgsql.5.0.3\lib\netstandard2.0\Npgsql.dll</HintPath>
     </Reference>
@@ -83,7 +86,14 @@
     <Compile Include="Conexao.cs" />
     <Compile Include="Controller\VehicleController.cs" />
     <Compile Include="DAO\ModelCarDAO.cs" />
+    <Compile Include="Model\Address.cs" />
     <Compile Include="Model\ModelCar.cs" />
+    <Compile Include="View\Client\CustomerRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Client\CustomerRegistration.Designer.cs">
+      <DependentUpon>CustomerRegistration.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +118,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\Client\CustomerRegistration.resx">
+      <DependentUpon>CustomerRegistration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
