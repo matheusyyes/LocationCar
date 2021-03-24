@@ -4,6 +4,7 @@ using System.Net;
 using System.IO;
 using LocationCar.Model;
 using Newtonsoft.Json;
+using LocationCar.DAO;
 
 namespace LocationCar.View.Client
 {
@@ -42,13 +43,38 @@ namespace LocationCar.View.Client
                     txtEndereco.Text = address.logradouro;
                     txtBairro.Text = address.bairro;
                     txtUF.Text = address.uf;
-                    
+                    txtCidade.Text = address.localidade;
                 }
                 catch (Exception er)
                 {
                     Console.WriteLine(er.Message);
                 }
             }
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e) {
+
+            Address address = new Address();
+
+            Cliente cli = new Cliente(txtNome, mskCpf, txtCnh, address);
+
+            address.logradouro = txtEndereco.Text;
+            address.bairro = txtBairro.Text ;
+            address.uf = txtUF.Text;
+            address.localidade = txtCidade.Text;
+            address.numero =int.Parse(txtNumero.Text);
+            address.cep = mskCEP.Text;
+
+            AddressDAO addressDAO = new AddressDAO();
+            cli.Address.Id = addressDAO.insert(address);
+
+            ClientDAO clientDAO = new ClientDAO();
+
+            clientDAO.Insert(cli);
+
+
+            
+
         }
     }
 }

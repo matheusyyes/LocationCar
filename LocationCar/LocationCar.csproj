@@ -85,8 +85,11 @@
   <ItemGroup>
     <Compile Include="Conexao.cs" />
     <Compile Include="Controller\VehicleController.cs" />
+    <Compile Include="DAO\AddressDAO.cs" />
+    <Compile Include="DAO\ClientDAO.cs" />
     <Compile Include="DAO\ModelCarDAO.cs" />
     <Compile Include="Model\Address.cs" />
+    <Compile Include="Model\Cliente.cs" />
     <Compile Include="Model\ModelCar.cs" />
     <Compile Include="View\Client\CustomerRegistration.cs">
       <SubType>Form</SubType>

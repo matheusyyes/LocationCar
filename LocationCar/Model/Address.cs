@@ -4,10 +4,10 @@ using System;
 
 namespace LocationCar.Model
 {
-    class Address
+    public class Address
     {
         
-        public int Id { get; }       
+        public int Id { get; set; }       
         public string cep { get; set; }        
         public string logradouro { get; set; }
         public int numero { get; set; }
