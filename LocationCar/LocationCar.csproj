@@ -90,6 +90,7 @@
     <Compile Include="DAO\ModelCarDAO.cs" />
     <Compile Include="Model\Address.cs" />
     <Compile Include="Model\Cliente.cs" />
+    <Compile Include="Model\Location.cs" />
     <Compile Include="Model\ModelCar.cs" />
     <Compile Include="View\Client\CustomerRegistration.cs">
       <SubType>Form</SubType>
