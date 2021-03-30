@@ -11,18 +11,19 @@ namespace LocationCar.Model
         public DateTime Date { get; set; }
         public double Price { get; set; }
         public Cliente Cliente { get; set; }
-        public List<ModelCar> Car { get; set; } = new List<ModelCar>();
+        public ModelCar Car { get; set; }
 
         public Location()
         {
         }
 
-        public Location(int id, DateTime date, double price, Cliente cliente)
+        public Location(int id, DateTime date, double price, Cliente cliente, ModelCar car)
         {
             Id = id;
             Date = date;
             Price = price;
-            Cliente = cliente;           
+            Cliente = cliente;
+            Car = car;
         }
     }
 }
